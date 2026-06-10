@@ -1,0 +1,25 @@
+div{
+    border: 1px solid black;
+    height: 10px;
+}
+header{
+    position: relative;
+    height: 32px;
+    top: 0
+   
+    
+}
+nav{
+    position: sticky; /* O elemento alterna entre uma posição relativa e fixa, dependendo da posição de rolagem */
+    top: 0;
+}
+main{
+    height: 100vh;
+    position: relative; /* O elemento é posicionado em relação à sua posição normal no fluxo do documento */
+}
+#fotos{
+    position: absolute; /* O elemento está posicionado em relação ao ancestral posicionado mais próximo */
+    height: 50px;
+    width: 50px;
+    left: 20px;
+}
